@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/FlaskApp"
+setenv VIRTUAL_ENV "/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/flaskApp"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    if ("FlaskApp" != "") then
-        set env_name = "FlaskApp"
+    if ("flaskApp" != "") then
+        set env_name = "flaskApp"
     else
         if (`basename "VIRTUAL_ENV"` == "__") then
             # special case for Aspen magic directories

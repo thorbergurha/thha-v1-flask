@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/FlaskApp"
+set -gx VIRTUAL_ENV "/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/flaskApp"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(FlaskApp) "            
-            printf "%s%s" "(FlaskApp) " (set_color normal)
+        if test -n "(flaskApp) "
+            printf "%s%s" "(flaskApp) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

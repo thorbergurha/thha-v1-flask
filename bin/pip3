@@ -1,11 +1,10 @@
-#!"/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/FlaskApp/bin/python3"
-
+#!/bin/sh
+'''exec' "/Volumes/GoogleDrive/My Drive/Skóli/2020 Haust/Vefforritun/vef2vf-tobbergur/Verkefni-1/Flask py/thha-v1-flask/flaskApp/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
-
-from pip import main
-
+from pip._internal.cli.main import main
 if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
     sys.exit(main())
